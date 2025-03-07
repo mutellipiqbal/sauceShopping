@@ -1,4 +1,4 @@
-E-commerce Test Automation Framework
+Sauce E-commerce Test Automation Framework
 This project contains automated test cases for the e-commerce functionality on https://www.saucedemo.com/ using Playwright.
 Test Scenarios
 
