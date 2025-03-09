@@ -6,6 +6,10 @@ module.exports = defineConfig({
   expect: {
     timeout: 5000
   },
+  use: {
+    headless: true,
+    // other configurations...
+  },
   reporter: [['html'], ['list']],
   use: {
     baseURL: 'https://www.saucedemo.com',
