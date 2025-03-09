@@ -7,8 +7,7 @@ module.exports = defineConfig({
     timeout: 5000
   },
   use: {
-    headless: true,
-    // other configurations...
+    headless: true
   },
   reporter: [['html'], ['list']],
   use: {
