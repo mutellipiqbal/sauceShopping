@@ -61,7 +61,7 @@ npx playwright test
 npx playwright test login.spec.js
 
 # Run tests with UI mode
-npx playwright test --ui
+npm run test:ui
 
 # Run tests in headed mode
 npx playwright test --headed
