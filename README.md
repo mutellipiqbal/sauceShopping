@@ -60,11 +60,15 @@ npx playwright test
 # Run specific test file
 npx playwright test login.spec.js
 
+# Run all tests
+npm run test
+
 # Run tests with UI mode
 npm run test:ui
 
 # Run tests in headed mode
-npx playwright test --headed
+npm run test:headed
+
 Global Login Functionality
 The framework implements login as a global functionality in multiple ways:
 
